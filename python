@@ -1,2 +1,216 @@
-for Aki in ['Q', 'i', 'u']:
+>>> print 'i like to use the internet for:'
+i like to use the internet for:
+>>> for item in ['e-mail', 'net-surfing', 'homework', 'chat']:
+...     print item
+...
+e-mail
+net-surfing
+homework
+chat
+>>> for item in ['word', '4', 'bili', '233']:
+...     print item
+...
+word
+4
+bili
+233
+>>> for item in ['word', '4', 'bili', '233']:
+...
+  File "<stdin>", line 2
+
+    ^
+IndentationError: expected an indented block
+>>> for item in ['word', '4', 'bili', '233']:
+...     print
+...
+
+
+
+
+>>> for epic in ['word', '4', 'bili', '233']:
+...     print epic
+...
+word
+4
+bili
+233
+>>> for in ['word', '4', 'bili', '233']:
+  File "<stdin>", line 1
+    for in ['word', '4', 'bili', '233']:
+         ^
+SyntaxError: invalid syntax
+>>> for Aki in ['Q', 'i', 'u']
+  File "<stdin>", line 1
+    for Aki in ['Q', 'i', 'u']
+                             ^
+SyntaxError: invalid syntax
+>>>     print aki
+  File "<stdin>", line 1
     print aki
+    ^
+IndentationError: unexpected indent
+>>> for Aki in ['Q', 'i', 'u']
+  File "<stdin>", line 1
+    for Aki in ['Q', 'i', 'u']
+                             ^
+SyntaxError: invalid syntax
+>>> for Aki in ['Q', 'i', 'u']:
+... print aki
+  File "<stdin>", line 2
+    print aki
+        ^
+IndentationError: expected an indented block
+>>> for Aki in ['Q', 'i', 'u']:
+... print Aki
+  File "<stdin>", line 2
+    print Aki
+        ^
+IndentationError: expected an indented block
+>>> for Aki in ['Q', 'i', 'u']:
+...     print aki
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'aki' is not defined
+>>> for Aki in ['Q', 'i', 'u']:
+...     print Aki
+...
+Q
+i
+u
+>>> PRINT 'I LIKE TO USE THE INTERNET for:'
+  File "<stdin>", line 1
+    PRINT 'I LIKE TO USE THE INTERNET for:'
+                                          ^
+SyntaxError: invalid syntax
+>>> print 'i like to use the internet for:'
+i like to use the internet for:
+>>> for item in ['e-mail', 'net-surfing', 'homework', 'chat']:
+...     print item
+... print
+  File "<stdin>", line 3
+    print
+        ^
+SyntaxError: invalid syntax
+>>> for item in ['e-mail', 'net-surfing', 'homework', 'chat']:
+...     print item,
+... print
+  File "<stdin>", line 3
+    print
+        ^
+SyntaxError: invalid syntax
+>>> for item in ['e-mail', 'net-surfing', 'homework', 'chat']:
+...     print item,
+...
+e-mail net-surfing homework chat
+>>> who = 'knights'
+>>> what = 'na!'
+>>> print 'we are the', who, 'who say', what, what, waht, what
+we are the knights who say na! na!
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'waht' is not defined
+>>> print 'we are the', who, 'who say', what, what, what, what
+we are the knights who say na! na! na! na!
+>>> print 'we are the %s who say %s' % \
+...       (who, ((what + ' ') * 4))
+we are the knights who say na! na! na! na!
+>>> for eachnum in  [0, 1, 2]:
+...     print eachnum
+...
+0
+1
+2
+>>> for eachnum in range(3):
+...     print eachnum
+...
+0
+1
+2
+>>> foo = 'abc'
+>>> for cin foo:
+  File "<stdin>", line 1
+    for cin foo:
+              ^
+SyntaxError: invalid syntax
+>>> for c in foo:
+... print c
+  File "<stdin>", line 2
+    print c
+        ^
+IndentationError: expected an indented block
+>>> foo = 'abc'
+>>> for c in foo:
+...     print c
+...
+a
+b
+c
+>>> foo = 'abc'
+>>> for i in range(len(foo)):
+...     print ch, '(%d)' % i
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'ch' is not defined
+>>> foo = 'abc'
+>>> for i in range(len(foo)):
+...     print foo[i]en, '(%d)' % i
+  File "<stdin>", line 2
+    print foo[i]en, '(%d)' % i
+                 ^
+SyntaxError: invalid syntax
+>>>
+>>> foo = 'abc'
+>>> for i in range(len(foo)):
+...     print foo[i], '(%d)' % i
+...
+a (0)
+b (1)
+c (2)
+>>> for i, ch in enumerate(foo)i:
+  File "<stdin>", line 1
+    for i, ch in enumerate(foo)i:
+                               ^
+SyntaxError: invalid syntax
+>>> for i, ch in enumerate(foo):
+...     print ch, '(%d)'te( % i
+  File "<stdin>", line 2
+    print ch, '(%d)'te( % i
+                     ^
+SyntaxError: invalid syntax
+>>>
+>>> for i, ch in enumerate(foo):
+...     print ch, '(%d)' % i
+...
+a (0)
+b (1)
+c (2)
+>>> foo = 'Qiu'
+>>> for i, ch in enumerate(foo):
+...     print ch, '(%d)' % i
+...
+Q (0)
+i (1)
+u (2)
+>>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
