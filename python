@@ -1,2 +1,2 @@
-for Aki in ['Q', 'i', 'u']
+for Aki in ['Q', 'i', 'u']:
     print aki
