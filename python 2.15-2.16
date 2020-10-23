@@ -60,7 +60,7 @@ I Love Bronya
 
 
 try:
-    filenane = raw_input('enter file name: ')
+    filename = raw_input('enter file name: ')
     fobj = open(filename, 'r')
     for eachline in fobj:
         print eachline,
