@@ -52,3 +52,19 @@ Enter file name: python.txt
 I Love Bronya
 >>>fobj.close()
 #————————
+
+
+
+
+
+
+
+try:
+    filenane = raw_input('enter file name: ')
+    fobj = open(filename, 'r')
+    for eachline on fobj:
+        print eachline,
+    fobj.close()
+except IOError, e:
+    print 'file open error:', e
+    
