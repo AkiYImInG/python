@@ -1,4 +1,4 @@
-————————步骤
+#————————步骤
 import os
 os.chdir("F:\Python")
 filename = raw_input('Enter file name: ')
@@ -8,7 +8,7 @@ for eachline in handle:
     print eachline,
 
 handle.close()
-————————
+#————————
 import os
 os.chdir("F:\Python")
 filename = raw_input('Enter file name: ')
@@ -19,17 +19,17 @@ for eachline in fobj:
 
 fobj.close()
 
-————————解释
-2.打开操作系统
-3.设置目录
-4.要打开的文件的名称
-5.文件名称
-6.打开文件
-7.所有的？？？
-8.打印所有内容
-9.回车
-10.关闭文件
-————————结果
+#————————解释
+#2.打开操作系统
+#3.设置目录
+#4.要打开的文件的名称
+#5.文件名称
+#6.打开文件
+#7.所有的？？？
+#8.打印所有内容
+#9.回车
+#10.关闭文件
+#————————结果
 >>> import os
 >>> os.chdir("F:\Python")
 >>> filename = raw_input('Enter file name: ')
@@ -40,7 +40,7 @@ Enter file name: python.txt
 ...
 I Love Bronya
 >>> handle.close()
-————————
+#————————
 >>>import os
 >>>os.chdir("F:\Python")
 >>>filename = raw_input('Enter file name: ')
@@ -51,4 +51,4 @@ Enter file name: python.txt
 ...
 I Love Bronya
 >>>fobj.close()
-————————
+#————————
