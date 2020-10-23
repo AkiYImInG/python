@@ -69,4 +69,18 @@ except IOError, e:                            #除了？？？
     print 'file open error:', e               #打印' '
                                               ————————
 enter file name:                              #上面的回车之后出现，输入设置目录下的文件名
-#————————
+#————————结果
+>>> import os                                     #打开操作系统
+>>> os.chdir("F:\Python")                         #设置目录
+>>> try:                                          #尝试
+...     filename = raw_input('enter file name: ') #要打开的文件的名称
+...     fobj = open(filename, 'r')                #打开文件
+...     for eachline in fobj:                     #所有？？？
+...         print eachline,                       #打印所有内容
+...     fobj.close()                              #关闭文件
+... except IOError, e:                            #除了？？？
+...     print 'file open error:', e               #打印' '
+...
+enter file name: python.txt
+I Love Bronya
+>>>
