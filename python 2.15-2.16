@@ -62,7 +62,7 @@ I Love Bronya
 try:
     filenane = raw_input('enter file name: ')
     fobj = open(filename, 'r')
-    for eachline on fobj:
+    for eachline in fobj:
         print eachline,
     fobj.close()
 except IOError, e:
