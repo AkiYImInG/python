@@ -58,3 +58,14 @@ class FooClass(object):
     def addme2me(self, x):
      """apply + operation to argument"""
      return x + x
+#————————
+foo1 = FooClass()     #输入
+created a class instance for john doe
+#————————
+foo1.showname()
+foo1.showver()
+print foo1.addme2me(5)
+print foo1.addme2me('zyx')
+#————————
+foo2 = FooClass('jane smith')
+foo2.showname()
