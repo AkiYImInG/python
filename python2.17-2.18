@@ -43,7 +43,7 @@ class classname(base_class[es]):
 #————————
 class FooClass(object):
  """my very first class: FooClass"""
- version = 0.1
+ version = 0.1 # class (data) attrobite
  def __init__(self, nm='John Doe'):
   """constructor"""
   self.name = nm # class instance (data) attribute
@@ -54,8 +54,8 @@ class FooClass(object):
    print 'My name is', self.__class__.__name__
    def showver(self):
     """display class (static) attribute"""
-    print self.version
-    def addMe2Me(self, x):
+    print self.version # references FooClass.version
+    def addMe2Me(self, x): # does not use 'self'
      """apply + operation to argument"""
      return x + x
 #————————
