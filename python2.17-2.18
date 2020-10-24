@@ -42,30 +42,29 @@ class classname(base_class[es]):
       method_declarations
 #————————
 class FooClass(object):
- """my very first class: fooclass"""
+ """my very first class: FooClass"""
  version = 0.1
- def __init__(self, nm='john doe'):
+ def __init__(self, nm='John Doe'):
   """constructor"""
   self.name = nm # class instance (data) attribute
-  print 'created a class instance for', nm
+  print 'Created a class instance for', nm
   def showname(self):
    """display instance attribute and class name"""
-   print 'your name is', self.name
-   print 'my name is', self._class_._name_
+   print 'Your name is', self.name
+   print 'My name is', self.__class__.__name__
    def showver(self):
     """display class (static) attribute"""
     print self.version
-    def addme2me(self, x):
+    def addMe2Me(self, x):
      """apply + operation to argument"""
      return x + x
 #————————
 foo1 = FooClass()     #输入
-created a class instance for john doe
 #————————
 foo1.showname()
 foo1.showver()
-print foo1.addme2me(5)
-print foo1.addme2me('zyx')
+print foo1.addMe2Me(5)
+print foo1.addMe2Me('zyx')
 #————————
-foo2 = FooClass('jane smith')
+foo2 = FooClass('Jane Smith')
 foo2.showname()
