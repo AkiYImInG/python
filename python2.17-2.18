@@ -1,0 +1,62 @@
+def function_name((arguments)):     
+    "optional documentation string" 
+    function_suite                 
+
+def addme2me(x):
+    'apply+operation to argument'
+    return(x+x)
+#————————————————————
+addMe2Me('Python')     #这个可以使括号内数字自己加自己，在我的值上加我
+
+
+
+
+#————————步骤
+def foo(debug=True):
+    if debug:
+       print 'in debug mode'
+    print 'done'
+
+#————————结果         True\False
+>>> def foo(debug=True):
+...  if debug:
+...     print 'in debug mode'
+...  print 'done'
+...
+>>> foo(True)
+in debug mode
+done
+>>> foo()
+in debug mode
+done
+>>> foo
+<function foo at 0x0000000001DEBAC8>
+>>> foo(False)
+done
+
+
+#——————————————————————————————
+class classname(base_class[es]):
+      "optional documentation string"
+      static_member_declarations
+      method_declarations
+#————————
+class FooClass(object):
+      """my very first class: fooclass"""
+      version = 0.1
+      def _init_(self, nm='john doe'):
+        """constructor"""
+        self.name = nm # class instance (data) attribute
+        print 'created a class instance for', nm
+        
+        
+def showname(self):
+        """display instance attribute and class name"""
+        print 'your name is', self.name
+        print 'my name is', self._class_._name_
+def showver(self):
+        """display class (static) attribute"""
+        print 'your name is', self.version
+def addme2me(self, x):
+        """apply + operation to argument"""
+        return x + x
