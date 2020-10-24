@@ -44,19 +44,17 @@ class classname(base_class[es]):
 class FooClass(object):
       """my very first class: fooclass"""
       version = 0.1
-      def _init_(self, nm='john doe'):
+def _init_(self, nm='john doe'):
         """constructor"""
         self.name = nm # class instance (data) attribute
         print 'created a class instance for', nm
-        
-        
 def showname(self):
         """display instance attribute and class name"""
         print 'your name is', self.name
         print 'my name is', self._class_._name_
 def showver(self):
         """display class (static) attribute"""
-        print 'your name is', self.version
+        print self.version
 def addme2me(self, x):
         """apply + operation to argument"""
         return x + x
