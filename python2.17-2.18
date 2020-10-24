@@ -44,7 +44,7 @@ class classname(base_class[es]):
 class FooClass(object):
  """my very first class: fooclass"""
  version = 0.1
- def _init_(self, nm='john doe'):
+ def __init__(self, nm='john doe'):
   """constructor"""
   self.name = nm # class instance (data) attribute
   print 'created a class instance for', nm
