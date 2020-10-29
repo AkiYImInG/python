@@ -11,3 +11,11 @@ if 2 > 1:
     print('2 > 1 is True')
 else:
     print('2 > 1 is False')
+
+#list 创建一个列表 用list[]来读取列表信息从0开始
+list = 1,2,3,'Q'
+list[3] #例如
+
+#引号作用
+'Hello' + 'World'
+'Hello' + ':' + 'World'
